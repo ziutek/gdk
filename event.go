@@ -17,3 +17,4 @@ type Event C.GdkEvent
 func (e *Event) Type() glib.Type {
 	return glib.Type(C.gdk_event_get_type())
 }
+
