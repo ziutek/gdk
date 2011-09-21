@@ -2,8 +2,6 @@ package gdk
 
 /*
 #include <gdk/gdk.h>
-
-#cgo pkg-config: gtk+-2.0
 */
 import "C"
 
